@@ -1,0 +1,33 @@
+Opened group sheets
+    {"Perkins"=>
+    #<Sheets:0x00005585255ecce8 @id="1xDQeHH9hwi3HqxOE4iJDgQfEnZVkjU9z9j9FuM6gMB6", @sheet="Sheet1">,
+    "Saunders"=>
+    #<Sheets:0x00005585255ecc70 @id="1QrcnBWkIzWKDd5bcBLiSl2nI5eopkUYjCRKoaNtEhzl", @sheet="Sheet1">,
+    "Wood"=>
+    #<Sheets:0x00005585255ecc20 @id="1AQ0DkwbzhKw5HQQuILOICfqcweZX72oIl3k136zxpb8", @sheet="Sheet1">}
+
+Begin batch of 5 items
+Process entry
+    {:username=>"jvs424",
+    :group=>"Wood",
+    :comment=>"The teaching was really good this term"}
+
+Process entry
+    {:username=>"jsw555",
+    :group=>"Saunders",
+    :comment=>"I thought the tutorials could have been better"}
+
+Process entry
+    {:username=>"lfk569",
+    :group=>"Perkins",
+    :comment=>"I found the labs really well organised"}
+
+Process entry
+    {:username=>"pug516",
+    :group=>"Izzard",
+    :comment=>"The admin team have been really helpful"}
+    
+NoMethodError: undefined method `append' for nil:NilClass
+/app/batch_process.rb:33:in `block in aggregate_feedback'
+/app/batch_process.rb:21:in `each'
+/app/batch_process.rb:21:in `aggregate_feedback'
